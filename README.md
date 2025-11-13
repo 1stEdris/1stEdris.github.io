@@ -63,6 +63,8 @@
   <nav>
     <a href="international.html">International Dishes</a>
     <a href="fastfood.html">Fast Food Samples</a>
+    <a href="#seafood">Seafood</a>
+    <a href="#dessert">Dessert</a>
     <a href="cv.html">My CV</a>
   </nav>
 </aside>
