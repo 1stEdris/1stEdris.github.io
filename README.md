@@ -63,8 +63,7 @@
   <nav>
     <a href="international.html">International Dishes</a>
     <a href="fastfood.html">Fast Food Samples</a>
-    <a href="#cv">My CV</a>
-    <a href="#blog">Blog</a>
+    <a href="cv.html">My CV</a>
     <a href="#about">About</a>
   </nav>
 </aside>
@@ -154,15 +153,10 @@
   </a>
 </section>
 
-  <section id="cv" style="max-width:800px;margin:40px auto;">
-    <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">My CV</h2>
-    <p><strong>Edris — Chef</strong><br>Years of experience, restaurants worked at, specialities, and contact info. Replace this with your real CV text or upload a PDF.</p>
-  </section>
-
-  <section id="blog" style="max-width:1000px;margin:40px auto;">
-    <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">Blog</h2>
-    <p>Short posts about recipes, travels, and kitchen tips — (placeholder).</p>
-  </section>
+  <a href="cv.html"
+   style="display:inline-block;margin-top:20px;padding:10px 24px;color:#fff;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.25);border-radius:10px;text-decoration:none;font-weight:600;font-family:'Montserrat',sans-serif;">
+  See My Full CV →
+</a>
 
   <section id="about" style="max-width:1000px;margin:40px auto 120px;">
     <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">About</h2>
