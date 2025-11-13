@@ -62,7 +62,7 @@
   <h3>Chef Edris</h3>
   <nav>
     <a href="#international">International Dishes</a>
-    <a href="#fastfood">Fast Food Samples</a>
+    <a href="fastfood.html">Fast Food Samples</a>
     <a href="#cv">My CV</a>
     <a href="#blog">Blog</a>
     <a href="#about">About</a>
