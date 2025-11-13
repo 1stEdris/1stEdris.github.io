@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Chef Edris — Portfolio</title>  <!-- Google Fonts: a calligraphic 'stretched' headline + clean body -->  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">  <style>
+  <title>Cook Edris — Portfolio</title>  <!-- Google Fonts: a calligraphic 'stretched' headline + clean body -->  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">  <style>
     *{box-sizing:border-box;margin:0;padding:0}
     html,body,#app{height:100%}
     body{font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; color:#fff; background:#000}
@@ -59,12 +59,11 @@
 <body>  <div id="app"><button class="menu-btn" id="menuBtn" aria-label="Open menu"><span class="dots">⋯</span></button>
 
 <aside class="side-menu" id="sideMenu" aria-hidden="true">
-  <h3>Chef Edris</h3>
+  <h3>Cook Edris</h3>
   <nav>
     <a href="international.html">International Dishes</a>
     <a href="fastfood.html">Fast Food Samples</a>
     <a href="cv.html">My CV</a>
-    <a href="#about">About</a>
   </nav>
 </aside>
 
@@ -93,8 +92,8 @@
   <div class="intro-card" role="region" aria-label="Introduction">
     <img src="My-photo.png" alt="Chef Edris portrait">
     <div class="intro-text">
-      <strong>Hello, I'm Chef Edris</strong>
-      <small>Chef • Chef's assistant • cook </small>
+      <strong>Hello, I'm Cook Edris</strong>
+      <small>Chef's assistant • cook </small>
       <div class="thumbs" aria-hidden="false">
         <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=60" alt="food thumb 1">
         <img src="https://images.unsplash.com/photo-1543353071-087092ec393a?auto=format&fit=crop&w=400&q=60" alt="food thumb 2">
@@ -157,10 +156,6 @@
    style="display:inline-block;margin-top:20px;padding:10px 24px;color:#fff;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.25);border-radius:10px;text-decoration:none;font-weight:600;font-family:'Montserrat',sans-serif;">
   See My Full CV →
 </a>
-
-  <section id="about" style="max-width:1000px;margin:40px auto 120px;">
-    <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">About</h2>
-    <p>Brief biography and list of venues where you worked. Keep everything in English as requested.</p>
   </section>
 </main>
 
