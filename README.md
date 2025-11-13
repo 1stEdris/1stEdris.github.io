@@ -114,9 +114,27 @@
   </section>
 
   <section id="fastfood" style="max-width:1000px;margin:40px auto;">
-    <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">Fast Food Samples</h2>
-    <p>Samples from the fast-food and street-food repertoire — (placeholder content).</p>
-  </section>
+  <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">
+    Fast Food Samples
+  </h2>
+  <p>Samples from the fast-food and street-food repertoire — explore my fast food creations below.</p>
+
+  <a href="fastfood.html"
+     style="display:inline-block;
+            margin-top:20px;
+            padding:10px 24px;
+            color:#fff;
+            background:rgba(255,255,255,0.08);
+            border:1px solid rgba(255,255,255,0.25);
+            border-radius:10px;
+            text-decoration:none;
+            font-weight:600;
+            font-family:'Montserrat',sans-serif;
+            letter-spacing:0.5px;
+            transition:all .3s ease;">
+    See More →
+  </a>
+</section>
 
   <section id="cv" style="max-width:800px;margin:40px auto;">
     <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">My CV</h2>
