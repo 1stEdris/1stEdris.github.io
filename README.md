@@ -61,7 +61,7 @@
 <aside class="side-menu" id="sideMenu" aria-hidden="true">
   <h3>Chef Edris</h3>
   <nav>
-    <a href="#international">International Dishes</a>
+    <a href="international.html">International Dishes</a>
     <a href="fastfood.html">Fast Food Samples</a>
     <a href="#cv">My CV</a>
     <a href="#blog">Blog</a>
@@ -109,9 +109,27 @@
 
 <main style="padding:40px;background:#0b0b0b;color:#fff;">
   <section id="international" style="max-width:1000px;margin:40px auto;">
-    <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">International Dishes</h2>
-    <p>Gallery and recipes for refined international cuisine — (placeholder content). Add your photos and descriptions here.</p>
-  </section>
+  <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">
+    International Dishes
+  </h2>
+  <p>Gallery and recipes for refined international cuisine — explore dishes from around the world.</p>
+
+  <a href="international.html"
+     style="display:inline-block;
+            margin-top:20px;
+            padding:10px 24px;
+            color:#fff;
+            background:rgba(255,255,255,0.08);
+            border:1px solid rgba(255,255,255,0.25);
+            border-radius:10px;
+            text-decoration:none;
+            font-weight:600;
+            font-family:'Montserrat',sans-serif;
+            letter-spacing:0.5px;
+            transition:all .3s ease;">
+    See More →
+  </a>
+</section>
 
   <section id="fastfood" style="max-width:1000px;margin:40px auto;">
   <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">
