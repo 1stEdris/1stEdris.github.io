@@ -94,7 +94,7 @@
     <img src="My-photo.png" alt="Chef Edris portrait">
     <div class="intro-text">
       <strong>Hello, I'm Chef Edris</strong>
-      <small>Chef • Recipe Developer • Food Stylist</small>
+      <small>Chef • Chef's assistant • cook </small>
       <div class="thumbs" aria-hidden="false">
         <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=60" alt="food thumb 1">
         <img src="https://images.unsplash.com/photo-1543353071-087092ec393a?auto=format&fit=crop&w=400&q=60" alt="food thumb 2">
@@ -153,7 +153,7 @@
   </a>
 </section>
 
-  <a href="cv.html"
+</section> <a href="cv.html"
    style="display:inline-block;margin-top:20px;padding:10px 24px;color:#fff;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.25);border-radius:10px;text-decoration:none;font-weight:600;font-family:'Montserrat',sans-serif;">
   See My Full CV →
 </a>
