@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fast Food Samples — Chef Edris</title>
+
+  <!-- فونت‌های هماهنگ با صفحه اصلی -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background:#0b0b0b;
+      color:#fff;
+      font-family:'Montserrat',sans-serif;
+      padding:40px 20px;
+      text-align:center;
+    }
+
+    h1 {
+      font-family:'Great Vibes',cursive;
+      font-size:46px;
+      margin-bottom:30px;
+    }
+
+    .gallery {
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+      gap:26px;
+      justify-items:center;
+      max-width:900px;
+      margin:0 auto;
+    }
+
+    .card {
+      background:rgba(255,255,255,0.04);
+      border-radius:14px;
+      box-shadow:0 6px 18px rgba(0,0,0,0.5);
+      overflow:hidden;
+      transition:transform .3s ease, box-shadow .3s ease;
+      width:100%;
+      max-width:320px;
+    }
+
+    .card:hover {
+      transform:translateY(-5px);
+      box-shadow:0 10px 24px rgba(0,0,0,0.6);
+    }
+
+    .card img {
+      width:100%;
+      aspect-ratio:3/4;
+      object-fit:cover;
+      display:block;
+    }
+
+    .info {
+      padding:14px 12px 18px;
+      font-size:14px;
+      opacity:.9;
+    }
+
+    a.back {
+      display:inline-block;
+      margin-top:40px;
+      color:#fff;
+      opacity:.8;
+      text-decoration:none;
+      border-bottom:1px solid rgba(255,255,255,0.3);
+      transition:opacity .3s;
+    }
+
+    a.back:hover {
+      opacity:1;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Fast Food Samples</h1>
+
+  <div class="gallery">
+    <div class="card">
+      <img src="My-photo.png" alt="Burger Special">
+      <div class="info">Classic beef burger with cheddar and caramelized onions.</div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1565958011705-44e211f3a6da?auto=format&fit=crop&w=800&q=80" alt="Hot Dog">
+      <div class="info">Grilled hot dog with crispy onions and spicy mayo.</div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1606756790138-52eac8c63002?auto=format&fit=crop&w=800&q=80" alt="Fries">
+      <div class="info">Golden French fries with house-made aioli dip.</div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=800&q=80" alt="Sandwich">
+      <div class="info">Turkey sandwich with lettuce, tomato, and melted Swiss cheese.</div>
+    </div>
+  </div>
+
+  <a href="index.html" class="back">← Back to Home</a>
+
+</body>
+</html>
