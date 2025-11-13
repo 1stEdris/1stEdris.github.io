@@ -92,7 +92,7 @@
   </article>
 
   <div class="intro-card" role="region" aria-label="Introduction">
-    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80" alt="Chef portrait placeholder">
+    <img src="My-photo.png" alt="Chef Edris portrait">
     <div class="intro-text">
       <strong>Hello, I'm Chef Edris</strong>
       <small>Chef • Recipe Developer • Food Stylist</small>
