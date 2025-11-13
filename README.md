@@ -109,56 +109,40 @@
 
 <main style="padding:40px;background:#0b0b0b;color:#fff;">
   <section id="international" style="max-width:1000px;margin:40px auto;">
-  <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">
-    International Dishes
-  </h2>
-  <p>Gallery and recipes for refined international cuisine — explore dishes from around the world.</p>
-
-  <a href="international.html"
-     style="display:inline-block;
-            margin-top:20px;
-            padding:10px 24px;
-            color:#fff;
-            background:rgba(255,255,255,0.08);
-            border:1px solid rgba(255,255,255,0.25);
-            border-radius:10px;
-            text-decoration:none;
-            font-weight:600;
-            font-family:'Montserrat',sans-serif;
-            letter-spacing:0.5px;
-            transition:all .3s ease;">
-    See More →
-  </a>
+    <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">International Dishes</h2>
+    <p>Gallery and recipes for refined international cuisine — explore dishes from around the world.</p>
+    <a href="international.html" style="display:inline-block;margin-top:12px;padding:8px 20px;color:#fff;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.3);border-radius:8px;text-decoration:none;">See More →</a>
 </section>
 
-  <section id="fastfood" style="max-width:1000px;margin:40px auto;">
-  <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">
-    Fast Food Samples
-  </h2>
-  <p>Samples from the fast-food and street-food repertoire — explore my fast food creations below.</p>
-
-  <a href="fastfood.html"
-     style="display:inline-block;
-            margin-top:20px;
-            padding:10px 24px;
-            color:#fff;
-            background:rgba(255,255,255,0.08);
-            border:1px solid rgba(255,255,255,0.25);
-            border-radius:10px;
-            text-decoration:none;
-            font-weight:600;
-            font-family:'Montserrat',sans-serif;
-            letter-spacing:0.5px;
-            transition:all .3s ease;">
-    See More →
-  </a>
+<section id="fastfood" style="max-width:1000px;margin:40px auto;">
+    <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">Fast Food Samples</h2>
+    <p>Samples from the fast-food and street-food repertoire — explore my fast food creations below.</p>
+    <a href="fastfood.html" style="display:inline-block;margin-top:12px;padding:8px 20px;color:#fff;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.3);border-radius:8px;text-decoration:none;">See More →</a>
 </section>
 
-</section> <a href="cv.html"
-   style="display:inline-block;margin-top:20px;padding:10px 24px;color:#fff;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.25);border-radius:10px;text-decoration:none;font-weight:600;font-family:'Montserrat',sans-serif;">
-  See My Full CV →
-</a>
-  </section>
+<section id="breakfast" style="max-width:1000px;margin:40px auto;">
+    <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">Breakfast</h2>
+    <p>Traditional and modern breakfast dishes — explore delicious morning meals.</p>
+    <a href="breakfast.html" style="display:inline-block;margin-top:12px;padding:8px 20px;color:#fff;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.3);border-radius:8px;text-decoration:none;">See More →</a>
+</section>
+
+<section id="seafood" style="max-width:1000px;margin:40px auto;">
+    <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">Seafood</h2>
+    <p>Sea delicacies including shrimp, calamari, lobster, and crab — explore fresh ocean flavors.</p>
+    <a href="seafood.html" style="display:inline-block;margin-top:12px;padding:8px 20px;color:#fff;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.3);border-radius:8px;text-decoration:none;">See More →</a>
+</section>
+
+<section id="dessert" style="max-width:1000px;margin:40px auto;">
+    <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">Desserts</h2>
+    <p>Sweet creations and pastries — explore famous desserts from around the world.</p>
+    <a href="dessert.html" style="display:inline-block;margin-top:12px;padding:8px 20px;color:#fff;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.3);border-radius:8px;text-decoration:none;">See More →</a>
+</section>
+
+<section id="cv" style="max-width:1000px;margin:40px auto;">
+    <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">My CV</h2>
+    <p>View my professional chef résumé — experience, skills, and background.</p>
+    <a href="cv.html" style="display:inline-block;margin-top:12px;padding:8px 20px;color:#fff;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.3);border-radius:8px;text-decoration:none;">See My Full CV →</a>
+</section>
 </main>
 
   </div>  <script>
