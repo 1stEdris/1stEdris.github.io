@@ -65,7 +65,7 @@
     <a href="fastfood.html">Fast Food Samples</a>
 <a href="breakfast.html">Breakfast</a>
 <a href="seafood.html">Seafood</a>
-<a href="desserts.html">Desserts</a>
+<a href="dessert.html">Desserts</a>
     <a href="cv.html">My CV</a>
   </nav>
 </aside>
@@ -133,10 +133,10 @@
     <a href="seafood.html" style="display:inline-block;margin-top:12px;padding:8px 20px;color:#fff;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.3);border-radius:8px;text-decoration:none;">See More →</a>
 </section>
 
-<section id="desserts" style="max-width:1000px;margin:40px auto;">
+<section id="dessert" style="max-width:1000px;margin:40px auto;">
     <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">Desserts</h2>
     <p>Sweet and delightful desserts — enjoy a curated selection of world favorites.</p>
-    <a href="desserts.html" style="display:inline-block;margin-top:12px;padding:8px 20px;color:#fff;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.3);border-radius:8px;text-decoration:none;">See More →</a>
+    <a href="dessert.html" style="display:inline-block;margin-top:12px;padding:8px 20px;color:#fff;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.3);border-radius:8px;text-decoration:none;">See More →</a>
 </section>
 
 <section id="cv" style="max-width:1000px;margin:40px auto;">
