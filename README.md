@@ -63,8 +63,9 @@
   <nav>
     <a href="international.html">International Dishes</a>
     <a href="fastfood.html">Fast Food Samples</a>
-    <a href="#seafood">Seafood</a>
-    <a href="#dessert">Dessert</a>
+<a href="breakfast.html">Breakfast</a>
+<a href="seafood.html">Seafood</a>
+<a href="desserts.html">Desserts</a>
     <a href="cv.html">My CV</a>
   </nav>
 </aside>
@@ -122,20 +123,20 @@
 
 <section id="breakfast" style="max-width:1000px;margin:40px auto;">
     <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">Breakfast</h2>
-    <p>Traditional and modern breakfast dishes — explore delicious morning meals.</p>
+    <p>Discover delicious and energizing breakfast dishes from around the world.</p>
     <a href="breakfast.html" style="display:inline-block;margin-top:12px;padding:8px 20px;color:#fff;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.3);border-radius:8px;text-decoration:none;">See More →</a>
 </section>
 
 <section id="seafood" style="max-width:1000px;margin:40px auto;">
     <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">Seafood</h2>
-    <p>Sea delicacies including shrimp, calamari, lobster, and crab — explore fresh ocean flavors.</p>
+    <p>Fresh seafood selections — from calamari to lobster and more.</p>
     <a href="seafood.html" style="display:inline-block;margin-top:12px;padding:8px 20px;color:#fff;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.3);border-radius:8px;text-decoration:none;">See More →</a>
 </section>
 
-<section id="dessert" style="max-width:1000px;margin:40px auto;">
+<section id="desserts" style="max-width:1000px;margin:40px auto;">
     <h2 style="font-family:'Great Vibes',cursive;font-size:36px;margin-bottom:8px">Desserts</h2>
-    <p>Sweet creations and pastries — explore famous desserts from around the world.</p>
-    <a href="dessert.html" style="display:inline-block;margin-top:12px;padding:8px 20px;color:#fff;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.3);border-radius:8px;text-decoration:none;">See More →</a>
+    <p>Sweet and delightful desserts — enjoy a curated selection of world favorites.</p>
+    <a href="desserts.html" style="display:inline-block;margin-top:12px;padding:8px 20px;color:#fff;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.3);border-radius:8px;text-decoration:none;">See More →</a>
 </section>
 
 <section id="cv" style="max-width:1000px;margin:40px auto;">
