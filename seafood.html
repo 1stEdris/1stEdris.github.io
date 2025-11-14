@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Seafood Dishes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body{
+        margin:0;
+        padding:20px;
+        background:#000;
+        color:#fff;
+        font-family:'Montserrat',sans-serif;
+    }
+    h1{
+        text-align:center;
+        font-family:'Great Vibes',cursive;
+        font-size:48px;
+        margin-bottom:30px;
+    }
+
+    .grid{
+        display:grid;
+        grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+        gap:22px;
+        max-width:900px;
+        margin:0 auto;
+    }
+
+    .item{
+        background:rgba(255,255,255,0.05);
+        border:1px solid rgba(255,255,255,0.15);
+        border-radius:12px;
+        padding:10px;
+        text-align:center;
+    }
+
+    .item img{
+        width:100%;
+        aspect-ratio:3/4;
+        object-fit:cover;
+        border-radius:8px;
+        margin-bottom:10px;
+    }
+
+    .item p{
+        font-size:14px;
+        opacity:0.9;
+    }
+
+    a.back{
+        display:block;
+        text-align:center;
+        margin-top:30px;
+        color:#fff;
+        text-decoration:none;
+        border:1px solid rgba(255,255,255,0.3);
+        padding:10px 16px;
+        width:180px;
+        margin-left:auto;
+        margin-right:auto;
+        border-radius:8px;
+        background:rgba(255,255,255,0.08);
+    }
+</style>
+</head>
+<body>
+
+<h1>Seafood Dishes</h1>
+
+<div class="grid">
+
+    <!-- Item 1 -->
+    <div class="item">
+        <img src="seafood1.png" alt="Seafood Dish">
+        <p>Description here.</p>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="item">
+        <img src="seafood2.png" alt="Seafood Dish">
+        <p>Description here.</p>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="item">
+        <img src="seafood3.png" alt="Seafood Dish">
+        <p>Description here.</p>
+    </div>
+
+    <!-- Item 4 -->
+    <div class="item">
+        <img src="seafood4.png" alt="Seafood Dish">
+        <p>Description here.</p>
+    </div>
+
+    <!-- Item 5 -->
+    <div class="item">
+        <img src="seafood5.png" alt="Seafood Dish">
+        <p>Description here.</p>
+    </div>
+
+    <!-- Item 6 -->
+    <div class="item">
+        <img src="seafood6.png" alt="Seafood Dish">
+        <p>Description here.</p>
+    </div>
+
+</div>
+
+<a href="index.html" class="back">← Back to Home</a>
+
+</body>
+</html>
