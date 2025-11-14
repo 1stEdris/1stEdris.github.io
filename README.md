@@ -146,19 +146,48 @@
 </section>
 </main>
 
-  </div>  <script>
-    (function(){
-      const slides = Array.from(document.querySelectorAll('.slide'));
-      let idx = 0;
-      const show = i => {
-        slides.forEach((s,si)=> s.classList.toggle('visible', si===i));
-      };
-      show(idx);
-      const interval = setInterval(()=>{ idx = (idx+1) % slides.length; show(idx); }, 5000);
+  <script>
+  (function(){
 
-      const menuBtn = document.getElementById('menuBtn');
-      const sideMenu = document.getElementById('sideMenu');
-      menuBtn.addEventListener('click', ()=>{
+    /* ----- Slideshow ----- */
+    const slides = Array.from(document.querySelectorAll('.slide'));
+    let idx = 0;
+    const show = i => {
+      slides.forEach((s, si) => s.classList.toggle('visible', si === i));
+    };
+    show(idx);
+    setInterval(() => { 
+      idx = (idx + 1) % slides.length; 
+      show(idx); 
+    }, 5000);
+
+    /* ----- Side Menu ----- */
+    const menuBtn = document.getElementById('menuBtn');
+    const sideMenu = document.getElementById('sideMenu');
+    const closeMenuBtn = document.getElementById('closeMenuBtn');
+
+    // Open menu
+    menuBtn.addEventListener('click', () => {
+      sideMenu.classList.add('open');
+      sideMenu.setAttribute('aria-hidden', 'false');
+    });
+
+    // Close menu
+    closeMenuBtn.addEventListener('click', () => {
+      sideMenu.classList.remove('open');
+      sideMenu.setAttribute('aria-hidden', 'true');
+    });
+
+    // Close menu on ESC
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        sideMenu.classList.remove('open');
+        sideMenu.setAttribute('aria-hidden', 'true');
+      }
+    });
+
+  })();
+</script>
         const open = sideMenu.classList.toggle('open');
         sideMenu.setAttribute('aria-hidden', !open);
       });
