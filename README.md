@@ -55,31 +55,6 @@
       .headline{font-size:clamp(28px,9vw,64px)}
     }
 
-  </style></head>
-<body>  <div id="app"><button class="menu-btn" id="menuBtn" aria-label="Open menu"><span class="dots">⋯</span></button>
-
-<aside class="side-menu" id="sideMenu" aria-hidden="true">
-  <h3>Cook Edris</h3>
-  <button id="closeMenuBtn" style="
-  background:none;
-  border:none;
-  font-size:22px;
-  color:#fff;
-  margin-bottom:15px;
-  cursor:pointer;
-">
-  BACK
-</button>
-  <nav>
-    <a href="international.html">International Dishes</a>
-    <a href="fastfood.html">Fast Food Samples</a>
-<a href="breakfast.html">Breakfast</a>
-<a href="seafood.html">Seafood</a>
-<a href="dessert.html">Desserts</a>
-    <a href="cv.html">My CV</a>
-  </nav>
-</aside>
-
 <section class="slideshow" id="slideshow">
 
   <article class="slide visible" style="background-image:url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80');" data-title="Spiced Lamb Platter">
@@ -161,54 +136,6 @@
 
     /* ----- Slideshow ----- */
     const slides = Array.from(document.querySelectorAll('.slide'));
-  /* ----- Side Menu ----- */
-const menuBtn = document.getElementById('menuBtn');
-const sideMenu = document.getElementById('sideMenu');
-const closeMenuBtn = document.getElementById('closeMenuBtn');
-
-// Open menu
-menuBtn.addEventListener('click', () => {
-  sideMenu.classList.add('open');
-  sideMenu.setAttribute('aria-hidden', 'false');
-});
-
-// Close menu (by back button)
-closeMenuBtn.addEventListener('click', () => {
-  sideMenu.classList.remove('open');
-  sideMenu.setAttribute('aria-hidden', 'true');
-});
-    show(idx);
-    setInterval(() => { 
-      idx = (idx + 1) % slides.length; 
-      show(idx); 
-    }, 5000);
-
-    /* ----- Side Menu ----- */
-    const menuBtn = document.getElementById('menuBtn');
-    const sideMenu = document.getElementById('sideMenu');
-    const closeMenuBtn = document.getElementById('closeMenuBtn');
-
-    // Open menu
-    menuBtn.addEventListener('click', () => {
-      sideMenu.classList.add('open');
-      sideMenu.setAttribute('aria-hidden', 'false');
-    });
-
-    // Close menu
-    closeMenuBtn.addEventListener('click', () => {
-      sideMenu.classList.remove('open');
-      sideMenu.setAttribute('aria-hidden', 'true');
-    });
-
-    // Close menu on ESC
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') {
-        sideMenu.classList.remove('open');
-        sideMenu.setAttribute('aria-hidden', 'true');
-      }
-    });
-
-  })();
 </script>
         const open = sideMenu.classList.toggle('open');
         sideMenu.setAttribute('aria-hidden', !open);
