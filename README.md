@@ -65,7 +65,7 @@
     <a href="fastfood.html">Fast Food Samples</a>
 <a href="breakfast.html">Breakfast</a>
 <a href="seafood.html">Seafood</a>
-<a href="Desserts.html">Desserts</a>
+<a href="desserts.html">Desserts</a>
     <a href="cv.html">My CV</a>
   </nav>
 </aside>
