@@ -68,7 +68,7 @@
   margin-bottom:15px;
   cursor:pointer;
 ">
-  🔙
+  BACK
 </button>
   <nav>
     <a href="international.html">International Dishes</a>
