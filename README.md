@@ -60,6 +60,16 @@
 
 <aside class="side-menu" id="sideMenu" aria-hidden="true">
   <h3>Cook Edris</h3>
+  <button id="closeMenuBtn" style="
+  background:none;
+  border:none;
+  font-size:22px;
+  color:#fff;
+  margin-bottom:15px;
+  cursor:pointer;
+">
+  🔙
+</button>
   <nav>
     <a href="international.html">International Dishes</a>
     <a href="fastfood.html">Fast Food Samples</a>
@@ -151,10 +161,22 @@
 
     /* ----- Slideshow ----- */
     const slides = Array.from(document.querySelectorAll('.slide'));
-    let idx = 0;
-    const show = i => {
-      slides.forEach((s, si) => s.classList.toggle('visible', si === i));
-    };
+  /* ----- Side Menu ----- */
+const menuBtn = document.getElementById('menuBtn');
+const sideMenu = document.getElementById('sideMenu');
+const closeMenuBtn = document.getElementById('closeMenuBtn');
+
+// Open menu
+menuBtn.addEventListener('click', () => {
+  sideMenu.classList.add('open');
+  sideMenu.setAttribute('aria-hidden', 'false');
+});
+
+// Close menu (by back button)
+closeMenuBtn.addEventListener('click', () => {
+  sideMenu.classList.remove('open');
+  sideMenu.setAttribute('aria-hidden', 'true');
+});
     show(idx);
     setInterval(() => { 
       idx = (idx + 1) % slides.length; 
