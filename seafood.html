@@ -4,111 +4,131 @@
 <meta charset="UTF-8">
 <title>Seafood Dishes</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
 <style>
     body{
         margin:0;
-        padding:20px;
+        padding:40px 20px;
         background:#000;
         color:#fff;
         font-family:'Montserrat',sans-serif;
     }
+    
     h1{
         text-align:center;
         font-family:'Great Vibes',cursive;
-        font-size:48px;
-        margin-bottom:30px;
+        font-size:52px;
+        margin-bottom:10px;
+    }
+    
+    p.intro {
+        text-align: center;
+        opacity: 0.85;
+        max-width: 600px;
+        margin: 0 auto 40px;
     }
 
-    .grid{
+    .gallery{
         display:grid;
-        grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
-        gap:22px;
-        max-width:900px;
+        grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+        gap:24px;
+        max-width:1100px;
         margin:0 auto;
     }
 
-    .item{
+    .card{
         background:rgba(255,255,255,0.05);
-        border:1px solid rgba(255,255,255,0.15);
-        border-radius:12px;
-        padding:10px;
-        text-align:center;
+        border-radius:16px;
+        overflow:hidden;
+        box-shadow:0 6px 20px rgba(0,0,0,0.6);
+        transition:transform 0.3s ease, box-shadow 0.3s ease;
     }
 
-    .item img{
+    .card:hover{
+        transform:translateY(-6px);
+        box-shadow:0 10px 26px rgba(0,0,0,0.8);
+    }
+
+    .card img{
         width:100%;
         aspect-ratio:3/4;
         object-fit:cover;
-        border-radius:8px;
-        margin-bottom:10px;
+        display:block;
     }
 
-    .item p{
+    .card p{
+        padding:14px 16px;
         font-size:14px;
         opacity:0.9;
+        text-align:center;
     }
 
-    a.back{
-        display:block;
-        text-align:center;
-        margin-top:30px;
-        color:#fff;
+    a.back-btn{
+        display:inline-block;
+        margin:40px auto 0;
         text-decoration:none;
-        border:1px solid rgba(255,255,255,0.3);
-        padding:10px 16px;
-        width:180px;
-        margin-left:auto;
-        margin-right:auto;
-        border-radius:8px;
-        background:rgba(255,255,255,0.08);
+        color:#fff;
+        background:rgba(255,255,255,0.1);
+        border:1px solid rgba(255,255,255,0.25);
+        padding:10px 20px;
+        border-radius:10px;
+        font-weight:600;
+        transition:all 0.3s ease;
+    }
+
+    a.back-btn:hover{
+        background:rgba(255,255,255,0.25);
     }
 </style>
 </head>
 <body>
 
-<h1>Seafood Dishes</h1>
+<h1>Seafood Specialties</h1>
+<p class="intro">Discover the finest seafood delicacies from the depths of the ocean, prepared with expert craftsmanship and fresh ingredients.</p>
 
-<div class="grid">
+<div class="gallery">
 
     <!-- Item 1 -->
-    <div class="item">
+    <div class="card">
         <img src="seafood1.png" alt="Seafood Dish">
-        <p>Description here.</p>
+        <p>Fresh grilled salmon with lemon butter sauce.</p>
     </div>
 
     <!-- Item 2 -->
-    <div class="item">
+    <div class="card">
         <img src="seafood2.png" alt="Seafood Dish">
-        <p>Description here.</p>
+        <p>Garlic shrimp scampi with fresh herbs.</p>
     </div>
 
     <!-- Item 3 -->
-    <div class="item">
+    <div class="card">
         <img src="seafood3.png" alt="Seafood Dish">
-        <p>Description here.</p>
+        <p>Lobster thermidor with creamy cheese sauce.</p>
     </div>
 
     <!-- Item 4 -->
-    <div class="item">
+    <div class="card">
         <img src="seafood4.png" alt="Seafood Dish">
-        <p>Description here.</p>
+        <p>Seafood paella with saffron rice.</p>
     </div>
 
     <!-- Item 5 -->
-    <div class="item">
+    <div class="card">
         <img src="seafood5.png" alt="Seafood Dish">
-        <p>Description here.</p>
+        <p>Grilled octopus with Mediterranean spices.</p>
     </div>
 
     <!-- Item 6 -->
-    <div class="item">
+    <div class="card">
         <img src="seafood6.png" alt="Seafood Dish">
-        <p>Description here.</p>
+        <p>Tuna tartare with avocado and sesame.</p>
     </div>
 
 </div>
 
-<a href="index.html" class="back">← Back to Home</a>
+<div style="text-align:center;">
+    <a href="index.html" class="back-btn">← Back to Home</a>
+</div>
 
 </body>
 </html>
