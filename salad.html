@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Salads</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+<style>
+    body{
+        margin:0;
+        padding:40px 20px;
+        background:#000;
+        color:#fff;
+        font-family:'Montserrat',sans-serif;
+    }
+    
+    h1{
+        text-align:center;
+        font-family:'Great Vibes',cursive;
+        font-size:52px;
+        margin-bottom:10px;
+    }
+    
+    p.intro {
+        text-align: center;
+        opacity: 0.85;
+        max-width: 600px;
+        margin: 0 auto 40px;
+    }
+
+    .gallery{
+        display:grid;
+        grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+        gap:24px;
+        max-width:1100px;
+        margin:0 auto;
+    }
+
+    .card{
+        background:rgba(255,255,255,0.05);
+        border-radius:16px;
+        overflow:hidden;
+        box-shadow:0 6px 20px rgba(0,0,0,0.6);
+        transition:transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover{
+        transform:translateY(-6px);
+        box-shadow:0 10px 26px rgba(0,0,0,0.8);
+    }
+
+    .card img{
+        width:100%;
+        aspect-ratio:3/4;
+        object-fit:cover;
+        display:block;
+    }
+
+    .card p{
+        padding:14px 16px;
+        font-size:14px;
+        opacity:0.9;
+        text-align:center;
+    }
+
+    a.back-btn{
+        display:inline-block;
+        margin:40px auto 0;
+        text-decoration:none;
+        color:#fff;
+        background:rgba(255,255,255,0.1);
+        border:1px solid rgba(255,255,255,0.25);
+        padding:10px 20px;
+        border-radius:10px;
+        font-weight:600;
+        transition:all 0.3s ease;
+    }
+
+    a.back-btn:hover{
+        background:rgba(255,255,255,0.25);
+    }
+</style>
+</head>
+<body>
+
+<h1>Fresh Salads</h1>
+<p class="intro">Experience the freshness of our carefully crafted salads, made with the finest seasonal ingredients and house-made dressings.</p>
+
+<div class="gallery">
+
+    <!-- Item 1 -->
+    <div class="card">
+        <img src="salad1.png" alt="Salad">
+        <p>Greek salad with feta and olives.</p>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="card">
+        <img src="salad2.png" alt="Salad">
+        <p>Caesar salad with parmesan and croutons.</p>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="card">
+        <img src="salad3.png" alt="Salad">
+        <p>Caprese salad with fresh mozzarella.</p>
+    </div>
+
+    <!-- Item 4 -->
+    <div class="card">
+        <img src="salad4.png" alt="Salad">
+        <p>Quinoa salad with roasted vegetables.</p>
+    </div>
+
+    <!-- Item 5 -->
+    <div class="card">
+        <img src="salad5.png" alt="Salad">
+        <p>Asian chicken salad with sesame dressing.</p>
+    </div>
+
+    <!-- Item 6 -->
+    <div class="card">
+        <img src="salad6.png" alt="Salad">
+        <p>Spinach salad with strawberries and almonds.</p>
+    </div>
+
+</div>
+
+<div style="text-align:center;">
+    <a href="index.html" class="back-btn">← Back to Home</a>
+</div>
+
+</body>
+</html>
