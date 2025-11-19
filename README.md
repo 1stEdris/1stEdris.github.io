@@ -133,7 +133,7 @@
 
       <!-- بخش جدید Salad که بعد از Fast Food اضافه شده -->
       <section id="salad" class="section">
-        <h2>Fresh Salads</h2>
+        <h2>Salads</h2>
         <p>Experience the freshness of our carefully crafted salads, made with the finest seasonal ingredients and house-made dressings.</p>
         <a href="salad.html" class="btn">See More →</a>
       </section>
