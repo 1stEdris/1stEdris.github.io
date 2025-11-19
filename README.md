@@ -131,6 +131,13 @@
         <a href="fastfood.html" class="btn">See More →</a>
       </section>
 
+      <!-- بخش جدید Salad که بعد از Fast Food اضافه شده -->
+      <section id="salad" class="section">
+        <h2>Fresh Salads</h2>
+        <p>Experience the freshness of our carefully crafted salads, made with the finest seasonal ingredients and house-made dressings.</p>
+        <a href="salad.html" class="btn">See More →</a>
+      </section>
+
       <section id="breakfast" class="section">
         <h2>Breakfast</h2>
         <p>Discover delicious and energizing breakfast dishes from around the world.</p>
