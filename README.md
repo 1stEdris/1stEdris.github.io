@@ -99,7 +99,7 @@
 
       <!-- intro card -->
       <div class="intro-card" role="region" aria-label="Introduction">
-        <img src="My-photo.HEIC" alt="Cook Edris portrait">
+        <img src="My-photo.png" alt="Cook Edris portrait">
         <div class="intro-text">
           <strong>Hello, I'm Cook Edris</strong>
           <small>Chef's assistant • cook</small>
