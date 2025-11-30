@@ -77,7 +77,7 @@
     <!-- SLIDESHOW -->
     <section class="slideshow" id="slideshow" aria-label="Hero slideshow">
 
-      <article class="slide visible" style="background-image:url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80');" data-title="Spiced Lamb Platter">
+      <article class="slide visible" style="background-image: Roast-Beff-Sandwich.png" data-title="Spiced Lamb Platter">
         <div class="overlay"></div>
         <h1 class="headline">Spiced Lamb Platter</h1>
       </article>
