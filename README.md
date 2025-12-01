@@ -105,8 +105,8 @@
           <small>Chef's assistant • cook</small>
 
           <div class="thumbs" aria-hidden="false">
-            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=60" alt="food thumb 1">
-            <img src="https://images.unsplash.com/photo-1543353071-087092ec393a?auto=format&fit=crop&w=400&q=60" alt="food thumb 2">
+            <img src="Fried-squid.png" alt="food thumb 1">
+            <img src="Spanish-Corn.png" alt="food thumb 2">
             <img src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=400&q=60" alt="food thumb 3">
           </div>
 
