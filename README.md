@@ -77,24 +77,24 @@
     <!-- SLIDESHOW -->
     <section class="slideshow" id="slideshow" aria-label="Hero slideshow">
 
-      <article class="slide visible" style="background-image: Roast-Beff-Sandwich.png" data-title="Spiced Lamb Platter">
-        <div class="overlay"></div>
-        <h1 class="headline">Spiced Lamb Platter</h1>
+      <article class="slide" style="background-image:url('Roast-Beff-Sandwich.png');" data-title="Roast Beff Sandwich">
+    <div class="overlay"></div>
+    <h1 class="headline">Roast Beff Sandwich</h1>
       </article>
 
-      <article class="slide" style="background-image:url('https://images.unsplash.com/photo-1543353071-087092ec393a?auto=format&fit=crop&w=1600&q=80');" data-title="Seafood Medley">
-        <div class="overlay"></div>
-        <h1 class="headline">Seafood Medley</h1>
+      <article class="slide" style="background-image:url('allArrabbiata.png');" data-title="Pasta AllArrabbiata">
+    <div class="overlay"></div>
+    <h1 class="headline">Pasta AllArrabbiata</h1>
       </article>
 
-      <article class="slide" style="background-image:url('https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=1600&q=80');" data-title="Colorful Vegan Bowl">
-        <div class="overlay"></div>
-        <h1 class="headline">Colorful Vegan Bowl</h1>
+      <article class="slide" style="background-image:url('Seasonal-Salad.png);" data-title="Seasonal Salad">
+    <div class="overlay"></div>
+    <h1 class="headline">Seasonal Salad</h1>
       </article>
 
-      <article class="slide" style="background-image:url('https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=1600&q=80');" data-title="Crispy Street Burger">
-        <div class="overlay"></div>
-        <h1 class="headline">Crispy Street Burger</h1>
+      <article class="slide" style="background-image:url('Cheese-Burger.png');" data-title="Cheese Burger">
+    <div class="overlay"></div>
+    <h1 class="headline">Cheese Burger </h1>
       </article>
 
       <!-- intro card -->
