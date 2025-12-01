@@ -87,7 +87,7 @@
     <h1 class="headline">Pasta AllArrabbiata</h1>
       </article>
 
-      <article class="slide" style="background-image:url('Seasonal-Salad.png);" data-title="Seasonal Salad">
+      <article class="slide" style="background-image:url('Seasonal-Salad.png');" data-title="Seasonal Salad">
     <div class="overlay"></div>
     <h1 class="headline">Seasonal Salad</h1>
       </article>
