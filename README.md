@@ -105,9 +105,9 @@
           <small>Chef's assistant • cook</small>
 
           <div class="thumbs" aria-hidden="false">
-            <img src="Fried-squid.png" alt="food thumb 1">
-            <img src="Spanish-Corn.png" alt="food thumb 2">
-            <img scr="Cheese-Burger.png">
+    <img src="Fried-squid.png" alt="food thumb 1">
+    <img src="Spanish-Corn.png" alt="food thumb 2">
+    <img src="Cheese-Burger.png" alt="food thumb 3">
           </div>
 
           <div class="cv-text"><a href="cv.html" style="color:inherit;text-decoration:underline;">My CV</a></div>
