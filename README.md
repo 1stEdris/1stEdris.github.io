@@ -107,7 +107,7 @@
           <div class="thumbs" aria-hidden="false">
             <img src="Fried-squid.png" alt="food thumb 1">
             <img src="Spanish-Corn.png" alt="food thumb 2">
-            <img src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=400&q=60" alt="food thumb 3">
+            <img scr="Cheese-Burger.png">
           </div>
 
           <div class="cv-text"><a href="cv.html" style="color:inherit;text-decoration:underline;">My CV</a></div>
