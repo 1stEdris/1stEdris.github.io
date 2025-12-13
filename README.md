@@ -150,12 +150,6 @@
         <a href="seafood.html" class="btn">See More →</a>
       </section>
 
-      <section id="dessert" class="section">
-        <h2>Desserts</h2>
-        <p>Sweet and delightful desserts — enjoy a curated selection of world favorites.</p>
-        <a href="desserts.html" class="btn">See More →</a>
-      </section>
-
       <section id="cv" class="section">
         <h2>My CV</h2>
         <p>View my professional chef résumé — experience, skills, and background.</p>
